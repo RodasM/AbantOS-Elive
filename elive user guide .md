@@ -476,6 +476,32 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 
 # Installing/Removing applications
+* Installing from the terminal(apt-get)
+
+    We can use the apt-get command to install packages from the terminal. The apt-get command is a powerful and free package management command line program that is used to install new packages. Listed below are a few commands to install different kinds of packages.
+
+Apt-get install
+This command will install all packages provided on the command line, given that they don't produce a conflict in some way. When these packages depend on others that are not yet installed, apt-get will download and install them as well. If that causes conflicts old packages will probably be not configured so everything will work well.
+If files actually need to be downloaded then apt-get will display the amount of data that have to be downloaded and asks for the user’s permission. If the connection to the internet breaks down in the middle of the download session, just restart it, apt-get will cope with it properly. If you only want to download files but not install them, use the -d switch. All packages will be downloaded into the directory /var/cache/apt/archives.
+If you specify packages on the command line that are already installed, apt-get will upgrade this package to the most recent version found in all the. So if you only want to upgrade a package, use the install command.
+If you want to reinstall a package that is already installed in the most recent version, please add --reinstall to the command line. apt-get will then fetch the most recent version regardless of the installed one.
+
+
+Examples:
+
+         apt-get install Firefox: This command installs Firefox web browser 
+ 
+         apt-get install git-annex : This command installs git annex. Git annex is used to manage files and anyone with access can work and share different files. 
+    
+         apt –get  install trusty : This package allows users to administer system resources and manage user accounts
+* Installing with a software package manager
+
+           The apt-cache command is used for searching apt software package cache.  We use the apt-cache command to search software packages. [1]
+
+          Apt-cache pkgnames “name of package” to search or list all the packages needed. 
+          
+          Sudo gem install lolcat :  lolcat prints the content of a text file in rainbow colors in the terminal. 
+
 
 ## Installing from the terminal (apt-get)
 
