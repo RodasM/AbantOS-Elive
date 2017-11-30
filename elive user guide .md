@@ -476,6 +476,37 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 
 # Installing/Removing applications
+* Installing from the terminal(apt-get)
+
+    We can use the apt-get command to install packages from the terminal. 
+
+Examples:
+
+         apt-get install Firefox: This command installs Firefox web browser 
+ 
+         apt-get install git-annex : This command installs git annex. Git annex is used to manage files and anyone with access can work and share different files. 
+	 
+	 installing git-annex = apt-get install git-annex
+
+         then to open the application you: click the desktop --> click applications--> click Internet --> click git annex
+
+         example: ( Remote Repository )
+
+         Hostname: honeypot.abantos.io
+
+         username: cher
+
+         password: greenorange
+    
+         apt –get  install trusty : This package allows users to administer system resources and manage user accounts
+* Installing with a software package manager
+
+           The apt-cache command is used for searching apt software package cache.  We use the apt-cache command to search software packages. [1]
+
+          Apt-cache pkgnames “name of package” to search or list all the packages needed. 
+          
+          Sudo gem install lolcat :  lolcat prints the content of a text file in rainbow colors in the terminal. 
+
 
 ## Installing from the terminal (apt-get)
 
